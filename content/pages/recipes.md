@@ -7,4 +7,4 @@ draft: false
 # Recipes
 
 Welcome to our collection of delicious recipes!
-
+{{< recipes >}}
