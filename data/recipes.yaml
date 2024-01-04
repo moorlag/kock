@@ -1,4 +1,6 @@
 - title: "Grapefruit in a Glass"
+  date: 2024-01-04
+  image: "apple-pie.jpg"
   category: "Starters"
   ingredients:
     - "2 grapefruits"
@@ -12,8 +14,11 @@
    - Serve fresh and well-chilled in glass or champagne bowls.
   prep_time: "10 minutes"
   cook_time: "0 minutes"
+  image: "starter1A.jpg"
 
 - title: "Scampi Cocktail"
+  date: 2024-01-04
+  image: "starter1B.jpg"
   category: "Starters"
   ingredients:
     - "250g cooked scampi (shrimp), peeled"
