@@ -1,6 +1,6 @@
-baseURL = 'https://ramonmoorlag.nl/kock/'
+baseURL = 'https://heidiskockklub.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Heidis Kock Klub'
 theme = 'ananke'
 [menus]
 [[menus.main]]
@@ -12,6 +12,10 @@ theme = 'ananke'
     pageRef = '/recipes'
     weight = 20
 [[menus.main]]
-    name = 'Services'
-    pageRef = '/services'
+    name = 'Issue or problem?'
+    pageRef = 'https://github.com/moorlag/kock/issues'
     weight = 30
+[[menus.main]]
+    name = 'Contact'
+    pageRef = 'https://www.linkedin.com/in/moorlag/'
+    weight = 100
