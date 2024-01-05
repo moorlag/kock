@@ -6,7 +6,7 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 [params]
   text_color = ""
-  author = ""
+  author = "Ramon"
   favicon = ""
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
@@ -25,11 +25,18 @@ url = "https://twitter.com/Moorlag"
     name = 'recipes'
     pageRef = '/recipes'
     weight = 20
+
 [[menus.main]]
-    name = 'Issue or problem?'
-    pageRef = 'a href ="https://github.com/moorlag/kock/issues"'
-    weight = 30
+    name = 'Issues and problems'
+    pre = '<i class="fa fa-heart"></i>'
+    url = 'https://github.com/moorlag/kock/issues'
+    weight = 40
+    [menus.main.params]
+      rel = 'external'
 [[menus.main]]
     name = 'Contact'
-    pageRef = 'https://www.linkedin.com/in/moorlag/'
+    pre = '<i class="fa fa-heart"></i>'
+    url = 'https://www.linkedin.com/in/moorlag/'
     weight = 100
+    [menus.main.params]
+      rel = 'external'
